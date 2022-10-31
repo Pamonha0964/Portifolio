@@ -1,0 +1,84 @@
+/* *{border: solid;} */
+
+h1{
+    color: darkorange;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: blueviolet;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.Header{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.Futter{
+    font-size: xx-large;
+    font-style: italic;
+}
+
+p,h2{
+    text-align: center;
+}
+
+#insta {
+    margin-left: 48.5%;
+    /*margin-left: 655px;*/
+}
+
+body{
+    background-color: black;
+}
+
+.Menu{
+    margin-right: 30px;
+}
+
+.Menu a{
+    margin-left: 20px;
+}
+
+a:link{
+    color: bisque;
+}
+
+.Item:hover p{
+    opacity: 1;
+}
+
+.Item:hover img{
+    opacity: 0.33;
+}
+
+.Item{
+    position: relative;
+    margin-top: 100px;
+}
+
+.Item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-59%);
+}
+
+a:visited{
+    color: rgb(119, 255, 119);
+}
+
+.Header h1{
+    text-align: center;
+    margin-left: 425px;
+}
